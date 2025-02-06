@@ -24,3 +24,13 @@ h1 {
     padding: 10px;
     border-radius: 20px;
 }
+
+#footer-item {
+  background-color: teal;
+  padding: 20px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
