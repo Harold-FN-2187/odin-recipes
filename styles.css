@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -16,13 +17,15 @@ h1 {
   font-weight: 700;
   text-align: center;
   font-size: 62px;
+  font-family: 'Lora';
 }
 
-#ingredients {
+#ingredients, #steps{
     background-color: teal;
     color:white;
     padding: 10px;
     border-radius: 20px;
+    font-family: 'Lora';
 }
 
 #footer-item {
@@ -33,4 +36,24 @@ h1 {
   text-align: center;
   color: white;
   border-radius: 20px;
+}
+
+#img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 20%;
+  border: 2px solid #ccc;
+  box-shadow: 5px 5px 5px teal;
+}
+
+ol li{
+  text-wrap: pretty;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+ul li{
+  text-wrap: pretty;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
 }
